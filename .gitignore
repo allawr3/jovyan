@@ -1,0 +1,35 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment directories
+env/
+venv/
+.venv/
+ENV/
+.ENV/
+env.bak/
+venv.bak/
+
+# Ignore IDE and editor files
+*.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore output files
+quantum_music.mid  # If you want to keep the MIDI file local but not commit it
+
+# Ignore configuration files
+*.env
+*.config
